@@ -58,6 +58,8 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: 0.75rem;
+    text-align: center;
     p {
       display: inline-block;
       margin: 0;
@@ -91,11 +93,12 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid $grey-color-light;
-  background-color: var(--global-bg-color);
+  border-bottom: 1px solid $grey-color;
   opacity: 0.95;
+  background-color: var(--global-bg-color);
 }
-.navbar.navbar-light {
+.navbar-light {
+  // Remove link decoration
   a {
     &:hover {
       text-decoration: none;
@@ -105,23 +108,22 @@ blockquote {
     color: var(--global-text-color);
   }
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-text-color) !important;
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-hover-color) !important;
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
-      background-color: inherit;
+      background-color: var(--global-bg-color) !important;
       font-weight: bolder;
-      color: var(--global-theme-color);
+      color: var(--global-theme-color) !important;
       &:hover {
-        color: var(--global-hover-color);
+        color: var(--global-hover-color) !important;
       }
   }
-  .navbar-brand.social {
-    padding-bottom: 0;
-    padding-top: 0;
-    font-size: 1.7rem;
+
+  .contact-icon {
+    font-size: 1.5rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -141,7 +143,7 @@ blockquote {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
+    background-color: var(--global-theme-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -177,18 +179,25 @@ blockquote {
 .news table td {
   font-size: 1rem;
   color: var(--global-text-color);
+  padding-top: .2rem;
+  padding-bottom: .2rem;
 }
 
 .news table th {
+  font-size: 75%;
+  font-weight: 600;
+  vertical-align: middle; 
   color: var(--global-text-color);
+  padding-top: .2rem;
+  padding-bottom: .2rem;
 }
 
 // Social (bottom)
 
 .social {
   text-align: center;
-  .contact-icons {
-    font-size: 4rem;
+  .contact-icon {
+    font-size: 2rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -226,10 +235,10 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid $grey-color-light;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  border-top: 0px solid $grey-color-light;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 0.5rem;
 }
 
 
