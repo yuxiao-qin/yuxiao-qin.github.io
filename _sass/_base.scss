@@ -42,7 +42,8 @@ a, table.table a {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
-    font-size: 1.2rem;
+    font-size: 0.75rem;
+    text-align: center;
     p {
       display: inline-block;
       margin: 0;
@@ -76,11 +77,11 @@ a, table.table a {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color;
   opacity: 0.95;
   background-color: var(--global-bg-color);
 }
-.navbar.navbar-light {
+.navbar-light {
   // Remove link decoration
   a {
     &:hover {
@@ -91,20 +92,22 @@ a, table.table a {
     color: var(--global-text-color);
   }
   .navbar-nav .nav-item .nav-link {
+    color: var(--global-text-color) !important;
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-hover-color) !important;
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
-      background-color: inherit;
+      background-color: var(--global-bg-color) !important;
       font-weight: bolder;
-      color: var(--global-theme-color);
+      color: var(--global-theme-color) !important;
       &:hover {
-        color: var(--global-hover-color);
+        color: var(--global-hover-color) !important;
       }
   }
+
   .contact-icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
     a {
       &:hover {
         color: var(--global-hover-color);
@@ -118,7 +121,7 @@ a, table.table a {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: $grey-color-dark;
+    background-color: var(--global-theme-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -154,10 +157,17 @@ a, table.table a {
 .news table td {
   font-size: 1rem;
   color: var(--global-text-color);
+  padding-top: .2rem;
+  padding-bottom: .2rem;
 }
 
 .news table th {
+  font-size: 75%;
+  font-weight: 600;
+  vertical-align: middle; 
   color: var(--global-text-color);
+  padding-top: .2rem;
+  padding-bottom: .2rem;
 }
 
 // Social (bottom)
@@ -165,7 +175,7 @@ a, table.table a {
 .social {
   text-align: center;
   .contact-icon {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
       color: var(--global-icon-color);
       &:hover {
@@ -198,10 +208,10 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid $grey-color-light;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  border-top: 0px solid $grey-color-light;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 0.5rem;
 }
 
 
@@ -392,7 +402,7 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
       div.abstract.hidden {
-        border: dashed 1px white;
+        border: dashed 1px var(--global-bg-color);
       }
       div.abstract.hidden.open {
         border-color: $grey-color;
