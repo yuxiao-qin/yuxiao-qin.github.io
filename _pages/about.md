@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 My journey with SAR/InSAR started more than 10 years ago at Peking University. I was introduced to the world of SAR/InSAR by my mentor, [Prof. Jiao Jian](https://sess.pku.edu.cn/english/people/researcharea/remote/270018.htm){:target="\_blank"} and [Prof. Zeng Qiming](https://sess.pku.edu.cn/english/people/researcharea/remote/270016.htm){:target="\_blank"}. I'm currently an associate professor at the School of Electronics and Information of Northwestern Polytechnical University in Xi'an, Shaanxi, China.
 
-I am always fascinated by how delicate and elegant the SAR sytem is. From time to time, I'm still thrilled by the fact that SAR satellites from 800km away can capture millimeter level ground movement accurately.
+I am always fascinated by how delicate and elegant the SAR system is. From time to time, I'm still thrilled by the fact that SAR satellites from 800km away can capture millimeter level ground movement accurately.
 
 A few of my interests include:
   - SAR interferometric processing and interpretation;
