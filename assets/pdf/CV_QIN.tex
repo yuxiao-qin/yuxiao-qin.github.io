@@ -1,0 +1,169 @@
+\documentclass[letterpaper]{article}
+
+\usepackage[breaklinks,urlbordercolor={1 1 1}]{hyperref}
+\usepackage{geometry}
+\usepackage{tabularx}
+\usepackage[resetlabels]{multibib}
+\newcites{A}{\textsc{Peer Reviewed Journals}}
+\newcites{M}{\textsc{Thesis}}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{\textsc{Yuxiao QIN}}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \name}
+
+\vspace{0.2in}
+
+\begin{minipage}{0.8\linewidth}
+  Associate Professor \\
+  School of Electronics and Information\\
+  Northwestern Polytechnical University \\
+  Xi'an, Shaanxi, China\\ 
+  \href{mailto:hi@yuxiaoq.in}{\tt hi@yuxiaoq.in} \\ 
+  \href{www.yuxiaoq.in}{www.yuxiaoq.in}
+\end{minipage}
+
+%---------------------------------------------------------------
+%	RESEARCH INTERESTS
+%---------------------------------------------------------------
+
+\section*{\textsc{Research Interests}}
+- Statistical signal/image processing;\\
+- Data processing, and algorithms development for (In)SAR;\\
+- SAR interferometric processing, and multi-temporal time series analysis;\\
+- Providing monitoring solutions with remote sensing data, especially using InSAR technique. 
+
+
+%---------------------------------------------------------------
+%	EDUCATION
+%---------------------------------------------------------------
+
+\section*{\textsc{Education}}
+\begin{tabular}{ll}
+2014 - 2018 & \textbf{Ph.D. Civil Engineering}, Purdue University, USA\\
+		& Area: \textit{Sentinel-1 interferometric processing: algorithms and applications} \\
+		& Thesis: \href{https://doi.org/10.25394/PGS.7543214.v1}{\textit{Sentinel-1 Wide Swath Interferometry: Processing Techniques and Applications}} \vspace{.5em}\\
+%------------------------------------------------
+2015 - 2017 & \textbf{M.Sc. Electrical and Computer Engineering}, Purdue University, USA\\
+		& Area: \textit{Area: communications, networking, digital signal and image processing} \vspace{.5em}\\
+
+%------------------------------------------------
+2010 - 2011 & \textbf{M.Sc. Earth System Science}, the Chinese University of Hong Kong, Hong Kong, China \vspace{.5em}\\
+        
+%------------------------------------------------
+2006 - 2010 & \textbf{B.Sc. Remote Sensing and GIS}, Peking University, Beijing, China\\
+\end{tabular}
+
+%---------------------------------------------------------------
+%	WORK & RESEARCH EXPERIENCE
+%---------------------------------------------------------------
+
+\section*{\textsc{Work \& Research}}
+\begin{tabular}{ll}
+2020 -      & \textbf{Associate Professor}, School of Electronics and Information \\ & Northwestern Polytechnical, University, Xi'an, Shaanxi, China  \vspace{.5em}\\
+2018 - 2020 & \textbf{Lead InSAR Engineer}, SkyGeo Netherlands B.V.,  Delft, the Netherlands \\
+\end{tabular}
+
+%---------------------------------------------------------------
+%	SOCIAL ACTIVITIES
+%---------------------------------------------------------------
+\section*{\textsc{Social Activities}}
+\begin{tabular}{ll}
+2007 - 2010     & \textbf{President and member of council}, Cycling Association of Peking University (CAPU) \vspace{.5em}\\
+2011 - 2013     & \textbf{Member of council}, Peking University Alumni Association Hong Kong\\
+\end{tabular}
+
+%---------------------------------------------------------------
+%	PUBLICATIONS
+%---------------------------------------------------------------
+
+%\renewcommand{\refname}{\textsc{Publications}}
+\makeatletter \renewcommand\@biblabel[1]{[#1]} \makeatother
+
+\nociteA{QIN2020}
+\nociteA{QIN2018}
+\nociteA{QIN2018-2}
+\nociteA{QIN2015}
+\nociteA{QIN2013}
+
+\bibliographystyleA{ieeetr}
+\bibliographyA{QIN}
+
+% In progress
+\makeatletter \renewcommand\@biblabel[1]{[#1]} \makeatother
+
+\nociteM{QIN2019}
+
+\bibliographystyleM{ieeetr}
+\bibliographyM{QIN}
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+%    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
