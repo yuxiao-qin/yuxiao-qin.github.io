@@ -10,8 +10,8 @@ email: yuxiao.qin@nwpu.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Yuxiao's academic webpage. Based on [*folio](https://github.com/bogoli/-folio).
 footer_text: >
-  Contact me at hi[at]yuxiaoq.in; Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme;
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  <a href="mailto:hi@yuxiaoq.in">Contact me.</a> Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>;
+  Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 url:  yuxiaoq.in # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
