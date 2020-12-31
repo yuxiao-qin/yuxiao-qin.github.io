@@ -59,8 +59,7 @@ dblp_url: # your DBLP profile url
 contact_note: >
   reach out to me by email :)
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
+google_analytics: UA-48512230-2    # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -165,7 +164,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
