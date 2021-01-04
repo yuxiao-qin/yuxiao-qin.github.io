@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <i>InSAR enthusiast, researcher & practitioner at <a href="http://dianzi.nwpu.edu.cn/">SEI</a> of <a href="http://www.nwpu.edu.cn/">NWPU.</a></i>
 
 profile:
   align: right
