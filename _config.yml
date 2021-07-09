@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yuxiao
 middle_name: 
 last_name: QIN 秦雨潇
-email: yuxiao.qin@nwpu.edu.cn
+email: # yuxiao.qin@nwpu.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Yuxiao's academic webpage. Based on [*folio](https://github.com/bogoli/-folio).
 footer_text: >
@@ -43,13 +43,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: yuxiao-qin
-scholar_userid: lYpq5gsAAAAJ
-orcid_id: 0000-0001-6169-0795 
+linkedin_username: # yuxiao-qin
+scholar_userid: # lYpq5gsAAAAJ
+orcid_id: # 0000-0001-6169-0795 
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: Yuxiao_Qin 
+research_gate_profile: # Yuxiao_Qin 
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
@@ -57,7 +57,6 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 
 contact_note: >
-  reach out to me by email :)
 
 google_analytics: UA-48512230-2    # out your google-analytics code
 
