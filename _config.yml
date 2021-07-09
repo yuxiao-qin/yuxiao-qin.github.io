@@ -6,11 +6,11 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yuxiao
 middle_name: 
 last_name: QIN 秦雨潇
-email: hi@yuxiaoq.in
+email: yuxiao.qin@nwpu.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Yuxiao's academic webpage. Based on [*folio](https://github.com/bogoli/-folio).
 footer_text: >
-  <a href="mailto:hi@yuxiaoq.in">Contact me.</a> Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>;
+  <a href="mailto:yuxiao.qin@nwpu.edu.cn">Contact me.</a> Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>;
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 url:  yuxiaoq.in # the base hostname & protocol for your site
